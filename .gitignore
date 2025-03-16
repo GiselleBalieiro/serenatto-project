@@ -1,0 +1,43 @@
+# Ignorar arquivos de configuração sensíveis
+conexao-db.php
+
+# Ignorar arquivos de ambiente
+.env
+.env.local
+.env.*.local
+
+# Ignorar diretórios do servidor e do sistema operacional
+/vendor/
+node_modules/
+*.log
+*.cache
+*.bak
+*.swp
+*.swo
+
+# Ignorar arquivos de banco de dados locais
+*.sql
+*.sqlite
+*.sqlite3
+dump.sql
+
+# Ignorar diretórios comuns no PHP
+composer.lock
+composer.phar
+
+# Ignorar diretórios temporários e de sessão
+/tmp/
+storage/
+sessions/
+cache/
+
+# Ignorar IDEs e editores de código
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Ignorar arquivos de depuração e testes
+.phpunit.result.cache
+coverage/
+.DS_Store
+Thumbs.db
